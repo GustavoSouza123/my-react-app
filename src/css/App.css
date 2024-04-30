@@ -23,12 +23,18 @@ h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .content img {
     height: 40vmin;
     animation: reactLogo infinite 20s linear;
+    margin-bottom: 70px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
 }
 
 @keyframes reactLogo {

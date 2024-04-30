@@ -9,7 +9,7 @@ const sections = [
 ];
 
 function handleClick(key) {
-    const section = sections.find(section => section.id === key)
+    const section = sections.find(section => section.id === key);
     sections.forEach(section => section.active = false);
     section.active = true;
 
