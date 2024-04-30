@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Navbar.css";
+import "../css/Navbar.css";
 
 const sections = [
     {id: 1, name: 'header', active: true},
