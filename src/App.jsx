@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import "./css/App.css";
-import reactLogo from "./assets/react-logo.png";
+import reactLogo from "./assets/react-logo.svg";
 
 function App() {
     return (
@@ -9,7 +9,7 @@ function App() {
             <Header />
             <div className="content">
                 <h1>My first React App!</h1>
-                <img src={reactLogo} width="300" />
+                <img src={reactLogo} alt="React logo" />
             </div>
         </>
     );

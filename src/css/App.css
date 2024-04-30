@@ -15,17 +15,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #282c34;
+    color: #fff;
 }
 
 h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .content img {
-    animation: reactLogo infinite 5s linear;
+    height: 40vmin;
+    animation: reactLogo infinite 20s linear;
 }
 
 @keyframes reactLogo {
